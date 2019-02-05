@@ -44,7 +44,7 @@ $config['default_font_size'] = '12pt';
 $config['message_show_email'] = true;
 
 // PLUGINS
-$config['plugins'] = array('managesieve', 'password');
+$config['plugins'] = array('password');
 
 
 // SMTP
