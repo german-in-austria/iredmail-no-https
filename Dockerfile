@@ -6,3 +6,4 @@ COPY ./var/www/index.html /var/www/index.html
 COPY ./opt/iredapd/settings.py /opt/iredapd/settings.py
 COPY ./etc/postfix/main.cf /etc/postfix/main.cf
 COPY ./etc/dovecot/dovecot.conf /etc/dovecot/dovecot.conf
+ COPY ./etc/sogo/sogo.conf /etc/sogo/sogo.conf
